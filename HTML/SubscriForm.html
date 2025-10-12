@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 3_2</title>
+    </head>
+    <body>
+        <form action="/action">
+            <!--Name-->
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <br>
+            <!--Sex-->
+            <div>
+                <label for="sex">Sex: </label>
+                <input type="radio" id="m" name="sex" value="m">
+                <label for="m">Male</label>
+                <input type="radio" id="f" name="sex" value="f">
+                <label for="f">Female</label>
+            </div>
+            <br>
+            <!--Country-->
+            <div>
+                <label for="country">Country: </label>
+                <select name="country" id="country">
+                    <option selected>Select an option</option>
+                    <option value="India">India</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                </select>            
+            </div>
+            <br>
+            <!--Message-->
+            <div>
+                <label for="msg">Message: </label>
+                <br>
+                <textarea name="msg" id="msg" rows="10" cols="50"></textarea>            
+            </div>
+            <br>
+            <!--Subscribe-->
+            <div>
+                <input type="checkbox" name="subs" id="yes" value="yes">
+                <label for="yes">Subscribe?</label>              
+            </div>
+            <br>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
