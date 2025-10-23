@@ -1,0 +1,47 @@
+/* Qs1 */
+#mainTopic{
+    color: blue;
+}
+
+/* Qs2 */
+*{
+    text-align: center;
+}
+
+/* Qs3 */
+h1, h3, h5{
+    font-family: Georgia;
+}
+
+/* Qs4 */
+.para{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+/* Qs5 */
+div button{
+    background-color: purple;
+    color: azure;
+}
+
+/* Qs6 */
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+/* Qs7 */
+p:nth-of-type(2n-1){
+    color: yellow;
+}
+
+/* Qs8 */
+h1::first-letter{
+    color: red;
+}
+
+/* Qs9 */
+input[type="checkbox"]:checked + label{
+    color: darkgreen;
+}
