@@ -77,9 +77,8 @@
 .box{
     width: 440px;
     height: 221px;
-    position: fixed;
-    bottom: 132px;
-    z-index: 1;
+    position: absolute;
+    transform: translate(0, 110px);
     background-color: black;
 }
 
