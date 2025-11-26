@@ -40,12 +40,12 @@
 }
 
 .sidebar_menu .logo a{
-    color: darkgrey;
-    text-decoration: none;
-    font-size: 20px;
-    left: 50px;
+    color: white;
+    text-decoration:wavy;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 10px;
     padding: 0 20px;
-    margin-left: 25px;
 }
 
 .sidebar_menu .btn_two i{
@@ -57,6 +57,7 @@
     left: 270px;
     line-height: 60px;
     cursor: pointer;
+    transform: rotate(45deg);
     transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -81,6 +82,7 @@
 }
 
 .sidebar_menu .social_media i{
+    font-size: 20px;
     padding: 0 5px;
     color: white;
     opacity: 0.5;
@@ -102,6 +104,7 @@
 
 .btn_two i:hover{
     transform: scale(1.2);
+    transform: rotate(0deg);
 }
 
 .social_media i:hover{
