@@ -1,50 +1,76 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
-    font-weight: light;
 }
+
 body{
-    width: 1075px;
-    /* height: 20px; */
-    /* border: 2px solid black; */
+    height: 100hv;
+    width: 877px;
     margin: 0 auto;
 }
 
-header{
-    text-align: center;
-    font-display: auto;
-    margin-bottom: 20px;
-}
-
-#name{
+h1{
     font-size: 50px;
-    margin-bottom: 0;
+    font-weight: 400;
 }
 
-.section{
+header i{
+    color: black;
+    font-size: 25px;
+    padding: 0 5px;
+    opacity: 0.5;
+}
+
+header i:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+header, footer{
     text-align: center;
-    font-size: 20px;
-    margin: 0;
-    text-transform: uppercase;
+    padding-bottom: 20px;
 }
 
-hr{
-    height: 2px;
-    background-color: black;
-    border: none;
+.sec_head{
+    font-weight: 500;
+    text-align: center;
 }
 
-p.masters, p.bachelors{
-    display: inline-block;
-    font-size: 18px;
-    margin-top: 1px;
-    margin-bottom: 1px;
+header, footer, section{
+    padding-bottom: 15px;
 }
 
-#degree{
-    margin: 0 100px 0 120px;
+.education{
+    display: grid;
+    grid-template-columns: 337px 225px 319px;
+    grid-template-rows: repeat(2, 1fr);
 }
 
-ul {
-    font-size: 18px;
-    margin: 1px 0 1px -25px;
+ul{
+    padding-left: 15px;
+}
+
+.exp{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#date{
+    justify-self: right;
+}
+
+#desc, #bullet{
+    grid-column: 1/ 2 span;
+}
+
+td{
+    border-right: 2px solid black;
+    padding: 1px 5px;
+    text-align: center;
+}
+
+footer i{
+    color: black;
 }
